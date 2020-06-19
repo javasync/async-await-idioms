@@ -1,0 +1,17 @@
+# Ignore C# output executable
+*.exe
+
+# Ignore Java classes
+*.class
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build

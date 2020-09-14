@@ -1,9 +1,13 @@
-## Looking concurrency in FetchAndSum()
+## Stretching Async/Await With Lambdas
 
 Comparing the use of `foreach` loop **without** lambdas and the use of a pipeline
 (such as `....map(..->...).reduce(..->...)`) **with** lambdas and the resulting 
 _sequential_ versus _concurrent_ behavior in different programming languages
-Java, Js, C# and Kotlin
+Java, Js, C# and Kotlin.
+
+Full article here: [_Stretching Async/Await With Lambdas_](https://dzone.com/articles/lambdas-in-concurrency-with-non-blocking-io)
+
+### Javascript
 
 <table>
 <tr>
@@ -74,6 +78,7 @@ Total chars = 470831
 </tr>
 </table>
 
+### C\#
 
 <table>
 <tr>
@@ -143,6 +148,8 @@ Total chars = 470831
 </td>
 </tr>
 </table>
+
+### Kotlin
 
 <table>
 <tr>
